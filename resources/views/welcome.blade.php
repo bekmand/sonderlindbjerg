@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link type="text/css" rel="stylesheet" href="{!! asset('css/main.css') !!}" />
-        <link type="text/css" rel="stylesheet" href="{!! asset('css/font-awesome.min.css.css') !!}" />
+        <link type="text/css" rel="stylesheet" href="{!! asset('css/font-awesome.min.css') !!}" />
         <link type="text/css" rel="stylesheet" href="{!! asset('css/custom.css') !!}" />
 
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -80,11 +80,11 @@
                             <section id="two">
                                 <div class="container">
                                     <div id="slides">
-                                        <img src="images/1.JPG">
-                                        <img src="images/2.JPG">
-                                        <img src="images/3.JPG">
-                                        <img src="images/4.JPG">
-                                        <img src="images/5.JPG">
+                                        <img src="{!! asset('css/images/1.JPG')!!}">
+                                        <img src="{!! asset('css/images/2.JPG')!!}">
+                                        <img src="{!! asset('css/images/3.JPG')!!}">
+                                        <img src="{!! asset('css/images/4.JPG')!!}">
+                                        <img src="{!! asset('css/images/5.JPG')!!}">
                                         <a href="#" class="slidesjs-previous slidesjs-navigation icon fa-arrow-left"></a>
                                         <a href="#" class="slidesjs-next slidesjs-navigation icon fa-arrow-right"></a>
                                     </div>
@@ -233,14 +233,14 @@
             </div>
 
         <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrollzer.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/skel.min.js"></script>
-            <script src="assets/js/util.js"></script>
+            <script src="{!! asset('js/jquery.min.js') !!}"></script>
+            <script src="{!! asset('js/jquery.scrollzer.min.js')!!}"></script>
+            <script src="{!! asset('js/jquery.scrolly.min.js')!!}"></script>
+            <script src="{!! asset('js/skel.min.js')!!}"></script>
+            <script src="{!! asset('js/util.js')!!}"></script>
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-            <script src="assets/js/main.js"></script>
-            <script src="assets/js/jquery.slides.min.js"></script>
+            <script src="{!! asset('js/main.js')!!}"></script>
+            <script src="{!! asset('js/jquery.slides.min.js')!!}"></script>
 
             <script>
             $(function() {
