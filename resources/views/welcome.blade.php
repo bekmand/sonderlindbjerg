@@ -37,7 +37,7 @@
             <li><a href="#one" class="active">Forside</a></li>
                         <li><a href="#two">Billeder</a></li>
                         <li><a href="#three">Bestyrelsen</a></li>
-                        <li><a href="#four">Generalt</a></li><!--Vedtægter, Generalforsamling, Publikationer, Årskalender -->
+                        <li><a href="#four">Generelt</a></li><!--Vedtægter, Generalforsamling, Publikationer, Årskalender -->
                         <li><a href="#five">Boligere til salg</a></li>
                         <li><a href="#six">Renovering</a></li>
                     </ul>
