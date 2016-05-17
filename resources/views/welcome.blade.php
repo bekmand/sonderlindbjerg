@@ -11,8 +11,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link type="text/css" rel="stylesheet" href="{!! asset('css/main.css') !!}" />
-        <link type="text/css" rel="stylesheet" href="{!! asset('css/font-awesome.min.css') !!}" />
-        <link type="text/css" rel="stylesheet" href="{!! asset('css/custom.css') !!}" />
 
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 

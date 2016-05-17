@@ -2449,7 +2449,7 @@
 /* Header */
 
 	#header {
-		background: #4c4e4e;
+		background: #888;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -2495,7 +2495,7 @@
 			}
 
 			#header > header p {
-				color: #ffffff;
+				color: #cbcbcb;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2513,7 +2513,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #cbcbcb;
 				}
 
 		#header > nav ul {
@@ -2523,7 +2523,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #cbcbcb;
+				border-top: solid 2px #999;
 				display: block;
 				padding: 0;
 			}
@@ -2542,7 +2542,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #c0c0c0 !important;
+						color: #cbcbcb !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2573,8 +2573,8 @@
 /* One */
 
 	#one:before {
-		background:url("../images/banner.jpg");
-		background-position: top right;
+		background-image: url("/css/banner.JPG");
+		background-position: bottom right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
@@ -3061,81 +3061,3 @@
 			}
 
 	}
-    
-    /* Slider JS */
-    
-    body {
-      -webkit-font-smoothing: antialiased;
-      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #232525;
-      padding-top:70px;
-    }
-
-    #slides {
-      display: none
-    }
-
-    #slides .slidesjs-navigation {
-      margin-top:3px;
-    }
-
-    #slides .slidesjs-previous {
-      margin-right: 5px;
-      float: left;
-    }
-
-    #slides .slidesjs-next {
-      margin-right: 5px;
-      float: left;
-    }
-
-    .slidesjs-pagination {
-      margin: 6px 0 0;
-      float: right;
-      list-style: none;
-    }
-
-    .slidesjs-pagination li {
-      float: left;
-      margin: 0 1px;
-    }
-
-    .slidesjs-pagination li a {
-      display: block;
-      width: 13px;
-      height: 0;
-      padding-top: 13px;
-      background-image: url('img/pagination.png');
-      background-position: 0 0;
-      float: left;
-      overflow: hidden;
-    }
-
-    .slidesjs-pagination li a.active,
-    .slidesjs-pagination li a:hover.active {
-      background-position: 0 -13px
-    }
-
-    .slidesjs-pagination li a:hover {
-      background-position: 0 -26px
-    }
-
-    #slides a:link,
-    #slides a:visited {
-      color: #333
-    }
-
-    #slides a:hover,
-    #slides a:active {
-      color: #9e2020
-    }
-
-    #slides {
-      display: none
-    }
-
-    .container {
-      margin: 0 auto
-    }
-
-    
